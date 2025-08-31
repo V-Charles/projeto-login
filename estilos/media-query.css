@@ -14,6 +14,7 @@ Grandes telas: aceima de 1200px
     --verde: #49a09d;
 }
 
+/* CONFIGURAÇÃO PARA TABLETS */
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body {
@@ -21,7 +22,8 @@ Grandes telas: aceima de 1200px
     }
 
     section#login {
-        width: 80vw;
+        width: 60vw;
+        height: 250px;
     }
 
     section#login > div#imagem {
@@ -36,6 +38,7 @@ Grandes telas: aceima de 1200px
     }
 }
 
+/* CONFIGURAÇÃO PARA TELAS GRANDES */
 @media screen and (min-width: 992px) {
 
     body {
@@ -44,6 +47,7 @@ Grandes telas: aceima de 1200px
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -59,9 +63,9 @@ Grandes telas: aceima de 1200px
 
     div#formulario > h1 {
         font-size: 2em;
-}
+    }
 
     div#formulario > p {
         font-size: 1.2em;
-}
+    }
 }
